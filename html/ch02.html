@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ch01 Exe02</title>
+</head>
+<body>
+    <h1>Φορμα Πληρωμης</h1>
+
+    
+    <!-- How to change text colour? -->
+    <p>Τα υποχρεωτικα πεδια ακολουθουνται απο <abbr title="Required field">*</abbr></p>
+
+    <h2>Προσωπικα Στοιχεια</h2>
+
+        <dl>
+            <dt>&nbsp; Title</dt>
+            <div>
+                <dd>
+                    <input type="radio" name="mr" value="mr" id="mr">
+                    <label for="mr">Mr.</label>
+                </dd>
+                <dd>
+                    <input type="radio" name="Mrs." value="Mrs." id="Mrs.">
+                    <label for="Mrs.">Mrs.</label>
+                </dd>
+                <dd>
+                    <input type="radio" name="Dr." value="Dr.">
+                    <label for="Dr.">Dr.</label>
+                </dd>
+                
+            </div>
+        </dl>
+        
+
+        <!-- X2 <br> because there is noteable gap between the input texts -->
+        <div>
+            <label for="name">Name: <abbr title="Required field">*</abbr></label>
+            <input type="text" name="name" id="name"> <br> <br>
+        </div>
+        <div>
+            <label for="email">E-mail: <abbr title="Required field">*</abbr></label>
+            <input type="text" name="email" id="email"> <br> <br>
+        </div>
+        <div>
+            <label for="password">Password: <abbr title="Required field">*</abbr></label>
+            <input type="password" name="password" id="password"> <br> <br>
+        </div>
+
+        <h2>Πληροφοριες Πληρωμης</h2>
+
+        <div>
+            <label for="card">Card Type</label> 
+            <select name="card" id="card">
+                <option value="" selected disabled hidden>Choose your card type</option>
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <!-- In case there is another type of card that im not aware of -->
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <!-- Gap between Card Type and Card Number -->
+        <br>
+        <div>
+            <label for="cardnumber">Card number: <abbr title="Required field">*</abbr></label>
+            <input type="text" name="cardnumber" id="cardnumber"> <br> <br>
+        </div>
+        <div>
+            <label for="expirationdate">Expiration date: <abbr title="Required field">*</abbr></label> 
+            <input type="month" name="expirationdate" id="expirationdate"> 
+        </div>
+
+        <div>
+            <!-- Can use CSS to aling this in the center like the example -->
+            <br>
+            <input type="submit" value="Προχωρηστε στην πληρωμη">
+        </div>
+
+</body>
+</html>
