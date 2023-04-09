@@ -1,4 +1,27 @@
+.bio-title{
+    border-bottom: 1px solid black;
+    padding-bottom: 0px;
+}
+
+.profile-pic{
+    width: 150px;
+    height: auto;
+    border: 4px solid black;
+    padding-bottom: 0px;
+}
+
+.bio-header{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+}
+
+.bio-text{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+
 .container{
     width: 25%;
-    border: 1px solid black;
+    border: 5px solid purple;
+    background-color: lightgray;
 }
