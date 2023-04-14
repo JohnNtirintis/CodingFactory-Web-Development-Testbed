@@ -1,0 +1,39 @@
+body {
+    background-color: lightblue;
+}
+
+.heading{
+    color: lightslategrey;
+}
+
+.inputs{
+    background-color: lightgrey;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.container{
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.sign-in-button {
+    background-color: lightblue;
+    border: 3px solid lightblue; 
+    border-left: 50px solid lightblue;
+    border-right: 50px solid lightblue;
+    border-radius: 5px;
+}
+
+.links{
+    text-decoration: underline;
+}
+
+.sign-up{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.sign-up{
+    text-align: center;
+}
