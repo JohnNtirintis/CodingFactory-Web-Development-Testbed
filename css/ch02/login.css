@@ -4,6 +4,7 @@ body {
 }
 
 .heading{
+    font-family: Arial, Helvetica, sans-serif;
     padding-top: 0;
     margin-top: 0;
     color: lightslategrey;
@@ -11,6 +12,7 @@ body {
 
 .inputs{
     background-color: lightgrey;
+    padding: 9px;
     margin-bottom: 10px;
     border-radius: 5px;
 }
@@ -30,12 +32,16 @@ body {
 
 .sign-in-button {
     background-color: lightblue;
-    border: 3px solid lightblue; 
-    border-left: 50px solid lightblue;
-    border-right: 50px solid lightblue;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-radius: 5px;
-
     margin-bottom: 15px;
+}
+
+.forgot-password{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .links{
