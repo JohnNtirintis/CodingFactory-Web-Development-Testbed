@@ -5,7 +5,7 @@
 }
 
 .container {
-    width: 98%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -13,6 +13,8 @@
 .header {
     background-color: #762124;
     overflow: hidden;
+    position: sticky;
+    top: 0px;
 }
 
 .logo {
@@ -27,7 +29,7 @@
 
 .nav {
     float:  left;
-    width: 700px;
+    width: 1200px;
 } 
 
 .nav > ul {
@@ -41,14 +43,12 @@
 .nav a {
     display: block;
     color: #ffffff;
+    /* background-color: pink; */
     text-decoration: none;
     font-size: 1.2rem;
-    padding: 5px 10px;
+    /* margin-right: 0px; */
+    /* margin-left: 150px; */
 }
-
-/* .nav a:hover {
-    background-color: rgb(22, 152, 109);
-} */
 
 .home-img {
     overflow: hidden;
@@ -67,7 +67,16 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 20px;
+}
+
+.home-subtitle {
+    width: 50%;
+    color: #762124;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:  200px;
 }
 
 .gap-bottom {
@@ -83,6 +92,25 @@
 }
 
 .footer {
+    display: flex;
+    height: 120px;
+    background-color: #762124;
+    justify-content: space-between;
+    align-items: center;
     color: wheat;
     padding: 0 10px;
+}
+
+.social-text {
+    vertical-align: middle;
+    color: blue;
+    font-size: 1.5rem;
+}
+
+.social > span {
+    vertical-align: middle;
+}
+
+.icon {
+    color: white;
 }
