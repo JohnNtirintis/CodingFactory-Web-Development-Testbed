@@ -15,6 +15,9 @@
     overflow: hidden;
     position: sticky;
     top: 0px;
+    width: 100%;
+    padding-right: 20px;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -25,11 +28,11 @@
     width: auto;
     height: 120px;
     vertical-align: middle;
+    margin-right: 60px;
 }
 
 .nav {
-    float:  left;
-    width: 1200px;
+    float: right;
 } 
 
 .nav > ul {
@@ -43,11 +46,10 @@
 .nav a {
     display: block;
     color: #ffffff;
-    /* background-color: pink; */
+    padding-right: 15px;
+    margin-left: 60px;
     text-decoration: none;
     font-size: 1.2rem;
-    /* margin-right: 0px; */
-    /* margin-left: 150px; */
 }
 
 .home-img {
